@@ -29,3 +29,15 @@
     width: 100%;
   }
 }
+
+.post-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.6rem;
+
+  // change last child
+  ion-icon:last-child {
+    margin-left: auto;
+  }
+}
