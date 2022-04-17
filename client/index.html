@@ -18,15 +18,33 @@
         <div class="nav__search">
           <div class="nav__search-container">
             <input type="text" placeholder="Search" />
-            <img class="nav__search-icon" src="img/icons/Search.svg" />
+            <ion-icon class="nav__search-icon" name="search-outline"></ion-icon>
           </div>
         </div>
-        <div class="nav-menu">Menu</div>
+        <div class="nav-menu">
+          <ul class="nav-menu__list">
+            <li>
+              <ion-icon name="home"></ion-icon>
+            </li>
+            <li>
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </li>
+            <li>
+              <ion-icon name="add-circle-outline"></ion-icon>
+            </li>
+            <li>
+              <ion-icon name="compass-outline"></ion-icon>
+            </li>
+            <li>
+              <ion-icon name="heart-outline"></ion-icon>
+            </li>
+            <li>
+              <img class="nav-menu__user-image" src="img/user.jpg" alt="User image">
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-
-    <!-- ion icons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
 </html>

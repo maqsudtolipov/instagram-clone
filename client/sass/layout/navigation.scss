@@ -19,14 +19,16 @@
 
   &__search-container {
     display: flex;
-    padding: 0.6rem 1.6rem;
+    align-items: center;
+    padding: 0.3rem 1.6rem;
 
     background-color: #efefef;
     border-radius: 0.8rem;
 
     input {
-      font-size: 1.4rem;
-      line-height: 1.8rem;
+      font-size: 1.6rem;
+      // line-height: 1.8rem;
+      height: 3rem;
       color: #262626;
       border: none;
       background-color: transparent;
@@ -39,5 +41,29 @@
     input::placeholder {
       color: #8e8e8e;
     }
+  }
+
+  &__search-icon {
+    height: 2rem;
+    width: 2rem;
+    color: #8e8e8e;
+  }
+
+  // menu
+}
+
+.nav-menu {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+
+    list-style: none;
+  }
+
+  &__user-image {
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
   }
 }
