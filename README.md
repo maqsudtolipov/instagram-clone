@@ -7,10 +7,12 @@
 - Major languages
 - Frameworks
 - Technologies used
+- SASS
+- Parcel
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://maqsud-instagram-clone.netlify.app/)
 
 ## Getting Started
 
