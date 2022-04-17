@@ -1,6 +1,6 @@
 // core
-@use 'core/reset';
-@use 'core/typography';
+@import 'core/reset';
+@import 'core/typography';
 
 // layout
-@use 'layout/navigation'
+@import 'layout/navigation'

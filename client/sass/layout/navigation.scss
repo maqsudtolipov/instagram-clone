@@ -3,15 +3,38 @@
   justify-content: center;
 }
 
-.nav-box {
-}
-
 .nav {
+  display: flex;
+  align-items: center;
   padding: 1.2rem 2rem;
 
   &__logo img {
     height: 2.9rem;
     margin-top: 0.7rem;
     display: inline-block;
+  }
+
+  &__search-container {
+    display: flex;
+    padding: 0.6rem 1.6rem;
+
+    background-color: #efefef;
+    border-radius: 0.8rem;
+
+    input {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: #262626;
+      border: none;
+      background-color: transparent;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #8e8e8e;
+    }
   }
 }

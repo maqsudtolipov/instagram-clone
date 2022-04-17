@@ -13,9 +13,8 @@
   "author": "Maqsud Tolipov",
   "license": "MIT",
   "dependencies": {
-    "parcel": "^2.4.1"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.4.1"
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "sass": "^1.50.0"
   }
 }
