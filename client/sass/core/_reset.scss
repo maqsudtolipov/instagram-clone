@@ -14,3 +14,49 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+
+.main {
+  background-color: #fafafa;
+
+  // temp
+  min-height: 100vh;
+}
+
+.main-container {
+  max-width: 935px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 29.5rem;
+  gap: 2.8rem;
+  position: relative;
+}
+
+//test
+.test-post-1 {
+  min-height: 50vh;
+  background-color: lightblue;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.test-post-2 {
+  min-height: 50vh;
+  background-color: lightgreen;
+  margin-bottom: 2rem;
+}
+
+.test-post-3 {
+  min-height: 50vh;
+  background-color: lightpink;
+  margin-bottom: 2rem;
+}
+.test-post-4 {
+  min-height: 50vh;
+  background-color: lightseagreen;
+  margin-bottom: 2rem;
+}
+.test-post-5 {
+  min-height: 50vh;
+  background-color: lightskyblue;
+  margin-bottom: 2rem;
+}
