@@ -1,8 +1,8 @@
 .nav-component {
   display: flex;
   justify-content: center;
-  background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
+  background-color: $darkBlack;
+  border-bottom: 1px solid $borderColor;
   position: sticky;
   top: 0px;
   z-index: 1000;
@@ -20,6 +20,7 @@
     height: 2.9rem;
     margin-top: 0.7rem;
     display: inline-block;
+    filter: invert(100%);
   }
 
   &__search-container {
@@ -27,7 +28,7 @@
     align-items: center;
     padding: 0.3rem 1.6rem;
 
-    background-color: #efefef;
+    background-color: #212121;
     border-radius: 0.8rem;
 
     input {
