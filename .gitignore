@@ -108,3 +108,4 @@ dist
 
 # Dot ENV
 .env
+server/.env
