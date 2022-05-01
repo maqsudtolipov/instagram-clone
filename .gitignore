@@ -106,6 +106,5 @@ dist
 # Parcel cache folder
 *.parcel-cache/
 
-# Dot ENV
-.env
-server/.env
+# Ignore all .env files
+.env.*
