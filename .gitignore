@@ -105,3 +105,6 @@ dist
 
 # Parcel cache folder
 *.parcel-cache/
+
+# Dot ENV
+.env
