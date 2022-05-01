@@ -107,4 +107,4 @@ dist
 *.parcel-cache/
 
 # Ignore all .env files
-.env.*
+server/config.env
